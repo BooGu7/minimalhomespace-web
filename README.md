@@ -51,8 +51,6 @@ Stablo là mẫu blog JAMStack được xây dựng bằng Next.js, Tailwind CSS
 
 Sử dụng Nút Triển khai bên dưới. Nó sẽ cho phép bạn triển khai trình khởi động bằng Vercel cũng như kết nối nó với Sanity Studio của bạn bằng Sanity Vercel Integration.
 
-[![Triển khai bằng Vercel](https://vercel.com/button)](https://vercel.com/new/web3templates/clone?demo-title=Stablo%20%E2%80%93%20Minimal%20Blog%20Template&demo-description=A%20minimal%20blog%20website%20template%20built%20with%20Next.js%2C%20TailwindCSS%20%26%20Sanity%20CMS%0A&demo-url=https%3A%2F%2Fstablo-template.vercel.app%2F&demo-image=%2F%2Fimages.ctfas sets.net%2Fe5382hct74si%2F6p72KDrdJ8SjyvOBrgRbnr%2F0760db43f2cb08504a2f67601e74d986%2FCleanShot_2022-07-15_at_16.54.17.png&project-name=Stablo%20%E2%80%93%20Minimal%20Blog%20Template&repository-name=stablo-blog&repository-url=https%3A%2F%2Fgithub.com%2Fweb3templates%2Fstablo&from=templates&integration-ids=oac_hb2LITYajhRQ0i4QznmKH7gx)
-
 ** triển khai ở trên sẽ tự động cấu hình những mục sau:**
 
 - Tạo Repository mới trong Github
