@@ -68,7 +68,9 @@ export default function Post(props) {
                       "MMMM dd, yyyy"
                     )}
                   </time>
-                  <span>· {post.estReadingTime || "5"} min read</span>
+                  <span>
+                    · Đã đọc {post.estReadingTime || "5"} phút trước.
+                  </span>
                 </div>
               </div>
             </div>
@@ -98,7 +100,7 @@ export default function Post(props) {
             <Link
               href="/"
               className="bg-brand-secondary/20 rounded-full px-5 py-2 text-sm text-blue-600 dark:text-blue-500 ">
-              ← View all posts
+              ← Tất cả bài viết
             </Link>
           </div>
           {post.author && <AuthorCard author={post.author} />}

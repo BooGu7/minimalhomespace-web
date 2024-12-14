@@ -27,7 +27,7 @@ function Searchbar() {
   return (
     <div>
       <h3 className="text-2xl font-bold dark:text-white">
-        Search Posts
+        Tìm kiếm bài viết
       </h3>
       <form action="/search" method="GET" className="mt-4">
         <SearchInput placeholder="Search" />
@@ -39,7 +39,9 @@ function Searchbar() {
 function RelatedPosts({ related, pathPrefix }) {
   return (
     <div className="mt-10">
-      <h3 className="text-2xl font-bold dark:text-white">Related</h3>
+      <h3 className="text-2xl font-bold dark:text-white">
+        Bài viết liên quan
+      </h3>
       <div className="mt-6 grid gap-6">
         {related.slice(0, 3).map((item, index) => {
           const imageProps = item?.image
@@ -81,9 +83,7 @@ function RelatedPosts({ related, pathPrefix }) {
 function Categories({ categories }) {
   return (
     <div className="mt-10">
-      <h3 className="text-2xl font-bold dark:text-white">
-        Categories
-      </h3>
+      <h3 className="text-2xl font-bold dark:text-white">Thể loại</h3>
       <ul className="mt-4 grid">
         {categories.map((item, index) => (
           <li key={item._id}>

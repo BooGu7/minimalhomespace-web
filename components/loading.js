@@ -28,7 +28,7 @@ const SkeletonImg = () => {
       aria-labelledby="loading-aria"
       viewBox="0 0 500 750"
       preserveAspectRatio="none">
-      <title id="loading-aria">Loading...</title>
+      <title id="loading-aria">Chờ trong giây lát...</title>
       <style dangerouslySetInnerHTML={{ __html: style }} />
       <rect
         x="0"

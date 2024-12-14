@@ -13,34 +13,27 @@ import { myLoader } from "@/utils/all";
 export default function Navbar(props) {
   const leftmenu = [
     {
-      label: "Home",
+      label: "Trang chủ",
       href: "/"
     },
     {
-      label: "About",
-      href: "/about"
-    },
-    {
-      label: "Contact",
-      href: "/contact"
+      label: "Bài viết",
+      href: "/archive"
     }
+    // {
+    //   label: "Thông tin",
+    //   href: "/about"
+    // }
   ];
 
   const rightmenu = [
     {
-      label: "Archive",
-      href: "/archive"
+      label: "Thông tin",
+      href: "/about"
     },
     {
-      label: "Pro Version",
-      href: "https://stablo-pro.web3templates.com/",
-      external: true,
-      badge: "new"
-    },
-    {
-      label: "Download",
-      href: "https://web3templates.com/templates/stablo-minimal-blog-website-template",
-      external: true
+      label: "Liên hệ",
+      href: "/contact"
     }
   ];
 
@@ -86,7 +79,7 @@ export default function Navbar(props) {
                       />
                     ) : (
                       <span className="block text-center">
-                        Stablo
+                        Boo Space
                       </span>
                     )}
                   </Link>
@@ -100,7 +93,7 @@ export default function Navbar(props) {
                       />
                     ) : (
                       <span className="block text-center">
-                        Stablo
+                        Boo Space
                       </span>
                     )}
                   </Link>

@@ -7,11 +7,11 @@ export default function About({ authors, settings }) {
   return (
     <Container>
       <h1 className="text-brand-primary mb-3 mt-2 text-center text-3xl font-semibold tracking-tight dark:text-white lg:text-4xl lg:leading-snug">
-        About
+        Thông tin
       </h1>
-      <div className="text-center">
+      {/* <div className="text-center">
         <p className="text-lg">We are a small passionate team.</p>
-      </div>
+      </div> */}
 
       <div className="mb-16 mt-6 grid grid-cols-3 gap-5 md:mb-32 md:mt-16 md:gap-16">
         {authors.slice(0, 3).map(author => {
@@ -36,7 +36,7 @@ export default function About({ authors, settings }) {
         })}
       </div>
 
-      <div className="prose mx-auto mt-14 text-center dark:prose-invert">
+      {/* <div className="prose mx-auto mt-14 text-center dark:prose-invert">
         <p>
           We provide real-time connectivity to enable software
           providers and financial institutions to build integrated
@@ -51,7 +51,7 @@ export default function About({ authors, settings }) {
         <p>
           <Link href="/contact">Get in touch</Link>
         </p>
-      </div>
+      </div> */}
     </Container>
   );
 }
