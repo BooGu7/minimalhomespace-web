@@ -13,9 +13,19 @@ async function sharedMetaData(params) {
       default: settings?.title || "Boo Space",
       template: "%s | Blog"
     },
-    description: settings?.description || "Boo Space meta",
-    keywords: ["boo", "minimalist"],
-    authors: [{ name: "Ton That Trong" }],
+    description:
+      settings?.description ||
+      "Khám phá mẹo công nghệ, ý tưởng sáng tạo và phong cách sống tối giản. Chia sẻ kiến thức lập trình, phần mềm và nội thất hiện đại giúp tối ưu công việc và cuộc sống.",
+    keywords: [
+      "boo",
+      "minimalist",
+      "nội thất",
+      "công nghệ",
+      "phần mềm",
+      "decor",
+      "thiết kế"
+    ],
+    authors: [{ name: "Tôn Thất Trọng" }],
     canonical: settings?.url,
     openGraph: {
       images: [
